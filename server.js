@@ -2,7 +2,7 @@ import express from 'express'
 import { dbConn } from './database/dbConnection.js'
 import {bootstrap} from "./src/modules/bootstrap.js"
 import { AppError } from './src/utils/appError.js'
-import { globalError } from './src/middleware/catchError.js'
+import { globalError } from './src/middleware/globalError.js'
 
 const app = express()
 const port = 3000
